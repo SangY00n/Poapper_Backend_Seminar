@@ -1,0 +1,39 @@
+{
+    "name": "OH Sang-Yoon",
+    "job": "Student",
+    "age": 21,
+    "hobby": [
+        "going on a trip",
+        "listening to music"
+    ],
+    "course_table": [
+        {
+            "name": "Probability & Statistics",
+            "id": "MATH230"
+        },
+        {
+            "name": "Intro. to Computer SW Systems",
+            "id": "CSED211"
+        },
+        {
+            "name": "Automata & Formal Languages",
+            "id": "CSED341"
+        },
+        {
+            "name": "Grammar",
+            "id": "GEDU126"
+        },
+        {
+            "name": "Introduction to Contemporary Art",
+            "id": "ARTS311"
+        },
+        {
+            "name": "Self-Enlightenment for Com. Scientists",
+            "id": "CSED291"
+        },
+        {
+            "name": "Entrepreneurship & Tech. Innovation",
+            "id": "IMEN110"
+        }
+    ]
+}
