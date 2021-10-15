@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script>
+        setInterval(() => {
+            const today = moment();
+            var now = today.format('YYYY-MM-DD HH:mm:ss');
+            console.log(now)
+            document.getElementById("timer").innerHTML = now;
+        }, 1000);
+    </script>
+    <h1>Timer</h1>
+    <p id="timer"></p>
+    <script>
+        const today = moment();
+        var now = today.format('YYYY-MM-DD HH:mm:ss');
+        console.log(now)
+        document.getElementById("timer").innerHTML = now;
+    </script>
+</body>
+
+</html>
